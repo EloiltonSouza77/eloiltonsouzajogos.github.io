@@ -1,0 +1,167 @@
+*{
+    font-family:'kadm thmor pro' , sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: nome;
+
+}
+
+header{
+
+    background-color: #107C10 ;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around}
+
+nav{
+
+    width: 75%;}
+
+ul{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;}
+
+li{
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+    font-family:'kadm thmor pro' , sans-serif;}
+
+
+#logo {
+
+    height: 65px;
+    width: auto;}
+
+#header2 {
+
+    background-color: #EEEEEE;
+    height: 45px;
+    display: flex;
+    align-items: center;}
+
+.text{
+
+    background-color: #EEEEEE;
+    margin-left: 8%;}
+
+#header3{
+
+    background-color: white;
+    height: 70px;
+    border-bottom: solid 1px #d4d4d4;
+    display: flex;
+    align-items: center;}
+
+
+.text2{
+
+    background-color: white;
+    margin-left: 8%;
+    font-size: 21px;}
+
+.card1, .card2, .card3, .card4 {    
+
+    width: 1014PX;
+    height: 78PX;
+    background-color: #107C10;
+    color: white; 
+    margin-top: 14px;
+    margin-bottom: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 70px;
+    }
+  
+.comprar1, .comprar2, .comprar3, .comprar4  {   
+
+    padding-top: 31px;
+    padding-left: 63px;
+    font-size: 160%;} 
+
+.card1 :hover{
+
+    cursor: pointer;
+    color: blue;}
+
+
+.joystick {
+
+    width: 1014px;
+    display: block;
+    margin: auto;
+    border-radius: 70px;}
+
+.tconta {
+
+    width: 1014px;
+    display: block;
+    margin: auto;}
+
+.es { 
+
+    width: 115px;
+    display: block;
+    margin: auto;}
+
+p {
+    text-align: center;}
+
+a {
+
+    color: white;
+        text-decoration: none;}
+    
+a:hover {
+    
+    text-decoration:underline;}
+
+
+@media screen and (max-width: 1033px) {
+
+    * {
+        margin-bottom: 1%;}
+
+    #logo { 
+
+        display: none;}
+
+    header { 
+
+        position: relative;
+        width: 100%;}
+
+        li { font-size: 94%;}
+
+    .text2 {
+
+        font-size: 93%;}
+
+    .card1, .card2, .card3, .card4 { 
+        
+        width: 95%;
+        height: 10%;}
+
+    .comprar1, .comprar2, .comprar3, .comprar4  { 
+
+        padding-top: 4%;
+        padding-bottom: 3%;
+        font-size: 62%;
+       }
+
+    .joystick {
+
+        width: 93%;}
+
+    .tconta {
+
+        width: 93%;}
+
+    .es { 
+
+        width: 19%;}}
